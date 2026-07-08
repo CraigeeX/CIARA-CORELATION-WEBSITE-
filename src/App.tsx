@@ -134,7 +134,7 @@ export default function App() {
       return diff * diff;
     });
     const sumDSquared = dSquareds.reduce((a, b) => a + b, 0);
-    const rawSpearmanFormulaUn-tied = 1 - (6 * sumDSquared) / (n * (n * n - 1));
+    const rawSpearmanFormulaUntied = 1 - (6 * sumDSquared) / (n * (n * n - 1));
 
     // Best fit line y = mx + c (Pearson regression helper)
     let m = 0;
